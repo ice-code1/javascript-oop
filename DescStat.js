@@ -12,6 +12,7 @@ const car = new Vehicle()
 console.log(car.tyres)
 // accessing a class
 console.log(Vehicle.engine)
+<<<<<<< HEAD
 
 // 2).using Es6+ classes to sompute descriptive statistics
 class DescStat{
@@ -138,3 +139,5 @@ console.log(`the Mean Deviation of the array is ${meanDeviation}`)
 const theQuartileDeviation = new DescStat([1,2,3,4,5])
 let QuartileDeviation = theQuartileDeviation.calculateQuartileDev()
 console.log(`the Quartile Deviation of the  array is ${QuartileDeviation}`)
+=======
+>>>>>>> 6bf7312ea9707c993250e6c617dbb46e922e39dd
